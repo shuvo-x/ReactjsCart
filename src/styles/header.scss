@@ -1,0 +1,35 @@
+#header{
+    
+}
+#navbar{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(11, 56, 71);
+
+    #logo{
+        vertical-align:middle;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding: 1rem 4rem;
+    }
+    >nav{
+       width: 100%;
+      >ul{
+        display: flex;
+        justify-content: flex-end;
+        vertical-align: middle;
+        
+        >li{
+            list-style: none;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            padding: 1.5rem 4rem;      
+        }
+      }
+    }
+}
+
+#Carticon{
+   display: flex;
+}
